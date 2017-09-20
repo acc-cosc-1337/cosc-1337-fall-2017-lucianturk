@@ -4,3 +4,4 @@ add_executable(payrollTests payroll_test.cpp)
 
 target_link_libraries(payrollTests gtest gtest_main)
 target_link_libraries(payrollTests payroll_library)
+add_subdirectory(payrolltest)

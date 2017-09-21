@@ -8,7 +8,7 @@ using namespace std;
 
 // I can't figure out how to use the stringstream example posted in blackboard to loop 3 times.
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	enum paymentMethod { Hourly = 72, Salary = 83 };
 	string first_name, last_name;

@@ -9,4 +9,4 @@ TEST(payroll_tests, when_hours_less_than_0){
     EXPECT_EQ(0, get_reg_hours(-10));
 }
 
-#EXPECT_EQ(expectedValue, actualValue);
+

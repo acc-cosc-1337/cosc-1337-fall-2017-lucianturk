@@ -17,4 +17,6 @@ TEST(ot_hours, when_total_hours_less_than_standard_hours){
     EXPECT_EQ(0, get_ot_hours(30));
 }
 
-
+TEST(gross_pay, gross_pay_with_no_ot_hours){
+    EXPECT_EQ(800, get_gross_pay(40, 0, 20));
+}

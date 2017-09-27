@@ -26,5 +26,5 @@ TEST(gross_pay, gross_pay_with_ot_hours){
 }
 
 TEST(gross_pay, gross_pay_with_salary){
-    EXPECT_EQ(50000, get_gross_pay(50000));
+    EXPECT_EQ(2000, get_gross_pay(52000));
 }
